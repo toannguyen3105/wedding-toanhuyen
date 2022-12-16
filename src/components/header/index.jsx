@@ -1,9 +1,34 @@
-import React from "react";
-import { Link } from "react-scroll";
 import { NavLink } from "react-router-dom";
+import { Link } from "react-scroll";
 import MobileMenu from "../MobileMenu/MobileMenu";
 
 const Header = (props) => {
+  const links = [
+    {
+      key: "home",
+      title: "Home",
+    },
+    {
+      key: "couple",
+      title: "Couple",
+    },
+    {
+      key: "story",
+      title: "Story",
+    },
+    {
+      key: "gallery",
+      title: "Gallery",
+    },
+    {
+      key: "RSVP",
+      title: "RSVP",
+    },
+    {
+      key: "event",
+      title: "Event",
+    },
+  ];
   return (
     <header id="header">
       <div className={`toanhuyen-site-header ${props.hclass}`}>
@@ -18,9 +43,9 @@ const Header = (props) => {
               <div className="col-lg-2 col-md-6 col-6">
                 <div className="navbar-header">
                   <NavLink className="navbar-brand logo" to="/">
-                    <small>My</small>love
+                    <small>Toan</small>huyen
                     <span>
-                      <i className="fi flaticon-dove"></i>
+                      <i className="fi flaticon-balloon"></i>
                     </span>
                   </NavLink>
                 </div>
@@ -34,72 +59,19 @@ const Header = (props) => {
                     <i className="ti-close"></i>
                   </button>
                   <ul className="nav navbar-nav mb-2 mb-lg-0">
-                    <li className="menu-item-has-children">
-                      <Link
-                        activeClass="active"
-                        to="home"
-                        spy={true}
-                        smooth={true}
-                        duration={500}
-                      >
-                        Home
-                      </Link>
-                    </li>
-                    <li>
-                      <Link
-                        activeClass="active"
-                        to="couple"
-                        spy={true}
-                        smooth={true}
-                        duration={500}
-                      >
-                        Couple
-                      </Link>
-                    </li>
-                    <li>
-                      <Link
-                        activeClass="active"
-                        to="story"
-                        spy={true}
-                        smooth={true}
-                        duration={500}
-                      >
-                        Story
-                      </Link>
-                    </li>
-                    <li>
-                      <Link
-                        activeClass="active"
-                        to="gallery"
-                        spy={true}
-                        smooth={true}
-                        duration={500}
-                      >
-                        Gallery
-                      </Link>
-                    </li>
-                    <li>
-                      <Link
-                        activeClass="active"
-                        to="RSVP"
-                        spy={true}
-                        smooth={true}
-                        duration={500}
-                      >
-                        RSVP
-                      </Link>
-                    </li>
-                    <li>
-                      <Link
-                        activeClass="active"
-                        to="event"
-                        spy={true}
-                        smooth={true}
-                        duration={500}
-                      >
-                        Events
-                      </Link>
-                    </li>
+                    {links.map((link) => (
+                      <li key={link.key}>
+                        <Link
+                          activeClass="active"
+                          to={link.key}
+                          spy={true}
+                          smooth={true}
+                          duration={500}
+                        >
+                          {link.title}
+                        </Link>
+                      </li>
+                    ))}
                   </ul>
                 </div>
               </div>
