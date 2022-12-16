@@ -19,7 +19,7 @@ const HomePage2 =() => {
 
     return(
         <Fragment>
-            <Navbar hclass={'wpo-site-header-s1'}/>
+            <Navbar hclass={'toanhuyen-site-header-s1'}/>
             <Hero2/>
             <CoupleSection cClass={'couple-section-s2'}/>
             <WeddingTime/>

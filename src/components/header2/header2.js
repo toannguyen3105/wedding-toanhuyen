@@ -11,7 +11,7 @@ const Header2 = (props) => {
 
   return (
     <header id="header">
-      <div className={`wpo-site-header ${props.hclass}`}>
+      <div className={`toanhuyen-site-header ${props.hclass}`}>
         <nav className="navigation navbar navbar-expand-lg navbar-light">
           <div className="container-fluid">
             <div className="row align-items-center">
