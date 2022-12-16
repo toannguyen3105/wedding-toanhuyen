@@ -1,5 +1,4 @@
 import React from "react";
-import BlogSection from "../../components/BlogSection/BlogSection";
 import BrideGrooms from "../../components/BrideGrooms/BrideGrooms";
 import CoupleSection from "../../components/CoupleSection/CoupleSection";
 import CtaSection from "../../components/CtaSection/CtaSection";
@@ -28,7 +27,6 @@ const HomePage = () => {
       <BrideGrooms />
       <EventSection />
       <PartnerSection />
-      <BlogSection />
       <Footer />
       <Scrollbar />
     </>

@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import coupleImg1 from "../../images/couple/2.jpg";
 import coupleImg2 from "../../images/couple/3.jpg";
 
@@ -30,34 +29,35 @@ const CoupleSection = (props) => {
                   </div>
                   <div className="col-lg-7">
                     <div className="couple-text">
-                      <h3>Jenny Wilson</h3>
+                      <h3>Thanh Huyền</h3>
                       <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                        Urna orci auctor vitae nisl. Erat fringilla pellentesque
-                        amet tempus. Commodo mi vitae, sed sagittis blandit. Leo
-                        netus magna fusce ac turpis mauris maecenas non.
+                        Cô dâu Thanh Huyền là người{" "}
+                        <i>xinh gái, hoạt bát, lễ phép</i>. Cũng chính những
+                        tính cách ấy, khiến chú rể lần đầu gặp mặt không khỏi ấn
+                        tượng. Tuy có nhiều lúc còn trẻ con, hơi bướng bỉnh,
+                        nhưng cô dâu Thanh Huyền thực sự là con người ấm áp và
+                        luôn có suy nghĩ cho con đường dài phía trước của hai vợ
+                        chồng.
                       </p>
                       <div className="social">
                         <ul>
                           <li>
-                            <Link to="/">
+                            <a
+                              rel="noreferrer"
+                              href="https://www.facebook.com/profile.php?id=100010328201818"
+                              target={"_blank"}
+                            >
                               <i className="ti-facebook"></i>
-                            </Link>
+                            </a>
                           </li>
                           <li>
-                            <Link to="/">
-                              <i className="ti-twitter-alt"></i>
-                            </Link>
-                          </li>
-                          <li>
-                            <Link to="/">
+                            <a
+                              rel="noreferrer"
+                              href="https://www.facebook.com/profile.php?id=100010328201818"
+                              target={"_blank"}
+                            >
                               <i className="ti-instagram"></i>
-                            </Link>
-                          </li>
-                          <li>
-                            <Link to="/">
-                              <i className="ti-pinterest"></i>
-                            </Link>
+                            </a>
                           </li>
                         </ul>
                       </div>
@@ -69,34 +69,43 @@ const CoupleSection = (props) => {
                 <div className="row align-items-center">
                   <div className="col-lg-7 order-lg-1 order-2">
                     <div className="couple-text">
-                      <h3>Leslie Alexander</h3>
+                      <h3>Huy Toàn</h3>
                       <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                        Urna orci auctor vitae nisl. Erat fringilla pellentesque
-                        amet tempus. Commodo mi vitae, sed sagittis blandit. Leo
-                        netus magna fusce ac turpis mauris maecenas non.
+                        Chú rể Huy Toàn là một chàng trai{" "}
+                        <i>hiền lành, ít nói, và hơi béo</i>. Chính vì sự rụt
+                        rè, ít nói đó mà chú rể tự cảm thấy may mắn khi tìm được
+                        cô dâu trên Facebook. Chú rể chia sẻ đã phải rất mạnh
+                        mẽ, lấy hết sự can đảm để nhắn tin làm quen trước với cô
+                        dâu. Và đã gặt được quả ngọt{" "}
+                        <img
+                          width={24}
+                          height={24}
+                          src="https://media.baamboozle.com/uploads/images/88978/1628215210_66687.gif"
+                          alt=""
+                        />{" "}
+                        Trong thời gian tới, chủ rể khong chỉ là điểm tựa mà còn
+                        được là người chia sẻ niềm vui, nỗi buồn cuộc sống với
+                        cô dâu.
                       </p>
                       <div className="social">
                         <ul>
                           <li>
-                            <Link to="/">
+                            <a
+                              rel="noreferrer"
+                              href="https://www.facebook.com/toannguyen3105/"
+                              target={"_blank"}
+                            >
                               <i className="ti-facebook"></i>
-                            </Link>
+                            </a>
                           </li>
                           <li>
-                            <Link to="/">
-                              <i className="ti-twitter-alt"></i>
-                            </Link>
-                          </li>
-                          <li>
-                            <Link to="/">
+                            <a
+                              rel="noreferrer"
+                              href="https://www.instagram.com/toannh8/"
+                              target={"_blank"}
+                            >
                               <i className="ti-instagram"></i>
-                            </Link>
-                          </li>
-                          <li>
-                            <Link to="/">
-                              <i className="ti-pinterest"></i>
-                            </Link>
+                            </a>
                           </li>
                         </ul>
                       </div>
