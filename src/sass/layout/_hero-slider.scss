@@ -2,13 +2,13 @@
 3. content
 --------------------------------------------------------------*/
 
-/*3.1 wpo-hero-slider*/
+/*3.1 toanhuyen-hero-slider*/
 
-.wpo-hero-slider,
+.toanhuyen-hero-slider,
 .static-hero,
 .static-hero-s2,
-.wpo-hero-style-3,
-.wpo-hero-style-4 {
+.toanhuyen-hero-style-3,
+.toanhuyen-hero-style-4 {
 	width: 100%;
 	height: 1000px;
 	display: flex;
@@ -181,11 +181,11 @@
 }
 
 
-.wpo-hero-slider,
+.toanhuyen-hero-slider,
 .static-hero,
 .static-hero-s2,
-.wpo-hero-style-3,
-.wpo-hero-style-4 {
+.toanhuyen-hero-style-3,
+.toanhuyen-hero-style-4 {
 
 	@include media-query(1199px) {
 		height: 680px;
@@ -221,7 +221,7 @@
 		z-index: 11;
 	}
 
-	.wpo-hero-title-top {
+	.toanhuyen-hero-title-top {
 		span {
 			font-size: 22px;
 			color: #e4e4e4;
@@ -318,9 +318,9 @@
 	}
 }
 
-// wpo-hero-slider-s2
+// toanhuyen-hero-slider-s2
 
-.wpo-hero-slider-s2 {
+.toanhuyen-hero-slider-s2 {
 
 	height: 900px;
 
@@ -525,9 +525,9 @@
 		}
 	}
 
-	// wpo-wedding-date
+	// toanhuyen-wedding-date
 
-	.wpo-wedding-date {
+	.toanhuyen-wedding-date {
 		text-align: center;
 		padding-bottom: 0;
 		margin-top: 40px;
@@ -707,8 +707,13 @@
 		z-index: 1;
 		transform: translateY(-50%);
 
-		@include media-query(1700px) {
+		@include media-query(2500px) {
 			right: 100px;
+		}
+
+		@include media-query(1920px) {
+			width: 500px;
+			height: 640px;
 		}
 
 		@include media-query(1400px) {
@@ -966,11 +971,11 @@
 }
 
 
-// wpo-hero-style-3
+// toanhuyen-hero-style-3
 
 
-.wpo-hero-style-3,
-.wpo-hero-style-4 {
+.toanhuyen-hero-style-3,
+.toanhuyen-hero-style-4 {
 	position: relative;
 	height: 900px;
 
@@ -1045,7 +1050,7 @@
 		}
 	}
 
-	.wpo-wedding-date {
+	.toanhuyen-wedding-date {
 		padding-top: 30px;
 
 		@media(max-width:575px) {
@@ -1172,7 +1177,7 @@
 	}
 
 
-	.wpo-event-item {
+	.toanhuyen-event-item {
 		padding: 60px 20px;
 		position: relative;
 		margin-bottom: 40px;
@@ -1226,7 +1231,7 @@
 			width: 310px;
 		}
 
-		.wpo-event-text {
+		.toanhuyen-event-text {
 			padding: 40px 35px;
 			text-align: center;
 
@@ -1330,7 +1335,7 @@
 }
 
 
-.wpo-hero-style-4 {
+.toanhuyen-hero-style-4 {
 	background: url(../../images/slider/slide-3.jpg) no-repeat center center;
 	position: relative;
 

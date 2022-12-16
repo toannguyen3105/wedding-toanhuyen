@@ -43,10 +43,11 @@ const Header = (props) => {
               <div className="col-lg-2 col-md-6 col-6">
                 <div className="navbar-header">
                   <NavLink className="navbar-brand logo" to="/">
+                  <small>Tony</small>
                     <span>
                       <i className="fi flaticon-balloon"></i>
                     </span>
-                    <small>Toan</small>huyen
+                    <small>Athena</small>
                   </NavLink>
                 </div>
               </div>

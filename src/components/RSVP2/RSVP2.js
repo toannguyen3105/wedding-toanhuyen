@@ -50,14 +50,14 @@ const RSVP2 = (props) => {
     };
 
     return (
-        <section className='wpo-contact-section-s2' id="RSVP">
+        <section className='toanhuyen-contact-section-s2' id="RSVP">
             <div className="container">
-                <div className="wpo-rsvp-wrap">
+                <div className="toanhuyen-rsvp-wrap">
                     <div className="row">
                         <div className="col-lg-8">
-                            <div className="wpo-contact-section-wrapper">
-                                <div className="wpo-contact-form-area">
-                                    <div className="wpo-section-title">
+                            <div className="toanhuyen-contact-section-wrapper">
+                                <div className="toanhuyen-contact-form-area">
+                                    <div className="toanhuyen-section-title">
                                         <div className="section-title-icon">
                                             <i className="fi flaticon-dove"></i>
                                         </div>

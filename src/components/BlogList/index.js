@@ -14,11 +14,11 @@ const BlogList = (props) => {
      }
 
     return(
-        <section className="wpo-blog-pg-section section-padding">
+        <section className="toanhuyen-blog-pg-section section-padding">
             <div className="container">
                 <div className="row">
                     <div className={`col col-lg-8 col-12 ${props.blRight}`}>
-                        <div className="wpo-blog-content">
+                        <div className="toanhuyen-blog-content">
                             {blogs.slice(0,4).map((blog, bitem) => (
                                 <div className={`post  ${blog.blClass}`}key={bitem}>
                                     <div className="entry-media video-holder">

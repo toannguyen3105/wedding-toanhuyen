@@ -1,8 +1,8 @@
 /*=====================================================
-8. wpo-service-single
+8. toanhuyen-service-single
 ======================================================*/
 
-.wpo-service-details-area{
+.toanhuyen-service-details-area{
     .container{
         @media(min-width:1440px){
           max-width: 1320px;
@@ -140,7 +140,7 @@
         font-size: 0.9375rem;
     }
 
-    .all-wpo-services{
+    .all-toanhuyen-services{
         margin-top: 50px;
     }
 }
@@ -155,7 +155,7 @@
     margin-bottom: 1.3em;
 }
 
-.wpo-minimal-wrap {
+.toanhuyen-minimal-wrap {
     position: relative;
     margin-bottom: 50px;
 
@@ -171,12 +171,12 @@
         width: 100%;
     }
 }
-.wpo-minimal-wrap .video-holder {
+.toanhuyen-minimal-wrap .video-holder {
     position: relative;
     text-align: center;
 }
 
-.wpo-minimal-wrap .video-holder:after {
+.toanhuyen-minimal-wrap .video-holder:after {
     position: absolute;
     left: 0;
     top: 0;
@@ -186,7 +186,7 @@
     background: rgba(10, 67, 149, .51);
 }
 
-.wpo-minimal-wrap .video-holder a {
+.toanhuyen-minimal-wrap .video-holder a {
     position: absolute;
     left: 50%;
     top: 50%;
@@ -205,7 +205,7 @@
     z-index: 99;
 }
 
-.wpo-minimal-wrap .video-holder a:before {
+.toanhuyen-minimal-wrap .video-holder a:before {
     content: "";
     width: 0px;
     height: 0px;
@@ -222,13 +222,13 @@
     transform: translate(-50%, -50%);
 }
 
-.wpo-minimal-wrap .video-holder {
+.toanhuyen-minimal-wrap .video-holder {
     position: absolute;
     left: 50%;
     top: 50%;
 }
 
-.wpo-minimal-wrap .video-holder a,
+.toanhuyen-minimal-wrap .video-holder a,
 .video-holder a {
     background-color: #fff;
     -webkit-animation: spineerb 2s infinite;
@@ -266,20 +266,20 @@
 }
 
 
-.wpo-service-details-text {
+.toanhuyen-service-details-text {
     text-align: center;
     padding: 40px;
     background: $dark-gray;
 
 }
 
-.wpo-service-details-text-3 {
+.toanhuyen-service-details-text-3 {
     text-align: center;
     padding: 40px;
     background: darken($dark-gray, 2%);
 }
 
-.wpo-service-details-list{
+.toanhuyen-service-details-list{
     .col{
         padding: 0;
     }
@@ -290,22 +290,22 @@
 }
 
 
-.wpo-service-details-text h2,
-.wpo-service-details-text-3 h2 {
+.toanhuyen-service-details-text h2,
+.toanhuyen-service-details-text-3 h2 {
     font-size: 22px;
     color: #fff;
     margin-bottom: 0;
 }
 
-.wpo-service-details-text span,
-.wpo-service-details-text-3 span {
+.toanhuyen-service-details-text span,
+.toanhuyen-service-details-text-3 span {
     font-size: 16px;
     color: #fafafa;
     display: block;
     margin-bottom: 10px;
 }
 
-.wpo-p-details-section {
+.toanhuyen-p-details-section {
     margin-top: 50px;
 
     ul{
@@ -358,7 +358,7 @@
 
 }
 
-.wpo-p-details-section p {
+.toanhuyen-p-details-section p {
     margin-bottom: 30px;
     font-size: 16px;
 
@@ -367,7 +367,7 @@
     }
 }
 
-.wpo-p-details-quote {
+.toanhuyen-p-details-quote {
     padding: 40px;
     background: $theme-primary-color;
     margin-top: 30px;
@@ -378,7 +378,7 @@
     border-bottom-left-radius: 30px;
 }
 
-.wpo-p-details-quote:before {
+.toanhuyen-p-details-quote:before {
     font-family: "Flaticon";
     content: "\f109";
     font-size: 40px;
@@ -394,7 +394,7 @@
     transform: translate(-50%, -50%);
 }
 
-.wpo-p-details-img {
+.toanhuyen-p-details-img {
     margin-bottom: 30px;
 
     img{
@@ -402,17 +402,17 @@
     }
 }
 
-.wpo-p-details-quote p {
+.toanhuyen-p-details-quote p {
     color: #fff;
     margin-bottom: 20px;
 }
 
-.wpo-p-details-quote span {
+.toanhuyen-p-details-quote span {
     color: #fddada;
     text-decoration: underline;
 }
 
-.wpo-faq-section {
+.toanhuyen-faq-section {
     padding-top: 60px;
 
     h4{
@@ -428,49 +428,49 @@
 
 @media(max-width:1200px) {
 
-    .wpo-service-details-text h2,
-    .wpo-service-details-text-3 h2 {
+    .toanhuyen-service-details-text h2,
+    .toanhuyen-service-details-text-3 h2 {
         font-size: 18px;
     }
 }
 
 @media(max-width:767px) {
 
-    .wpo-service-details-text h2,
-    .wpo-service-details-text-3 h2 {
+    .toanhuyen-service-details-text h2,
+    .toanhuyen-service-details-text-3 h2 {
         margin-bottom: 30px;
     }
 
-    .wpo-service-details-text-3 {
+    .toanhuyen-service-details-text-3 {
         border: none;
     }
 
-    .wpo-service-details-list{
+    .toanhuyen-service-details-list{
         padding-bottom: 10px;
         background: $dark-gray;
     }
 }
 
 @media(max-width:530px) {
-    .wpo-p-details-quote:before {
+    .toanhuyen-p-details-quote:before {
         left: 12%;
         top: 17%;
     }
 }
 
 /*=======================================================
-8. wpo-service-single-section
+8. toanhuyen-service-single-section
 ========================================================*/
 
-.wpo-service-sidebar .all-wpo-services {
+.toanhuyen-service-sidebar .all-toanhuyen-services {
     background-color: #f8f8f8;
     padding: 60px 30px;
 }
-.wpo-service-sidebar .all-wpo-services ul{
+.toanhuyen-service-sidebar .all-toanhuyen-services ul{
     list-style: none;
 }
 
-.wpo-service-sidebar .widget h3 {
+.toanhuyen-service-sidebar .widget h3 {
     font-size: 24px;
     font-size: 1.5rem;
     font-weight: bold;
@@ -480,7 +480,7 @@
     position: relative;
 }
 
-.wpo-service-sidebar .widget h3:before {
+.toanhuyen-service-sidebar .widget h3:before {
     content: "";
     background-color: $theme-primary-color;
     width: 55px;
@@ -491,7 +491,7 @@
     border-radius: 10px;
 }
 
-.wpo-service-sidebar .widget h3:after {
+.toanhuyen-service-sidebar .widget h3:after {
     content: "";
     background-color: #e4e1e1;
     width: 80%;
@@ -502,7 +502,7 @@
     border-radius: 10px;
 }
 
-.wpo-service-sidebar .all-wpo-services ul a {
+.toanhuyen-service-sidebar .all-toanhuyen-services ul a {
     margin-top: 15px;
     padding-bottom: 15px;
     display: block;
@@ -510,28 +510,28 @@
     color: #666;
 }
 
-.wpo-service-sidebar .all-wpo-services ul a:hover,
-.wpo-service-sidebar .all-wpo-services ul li.current a {
+.toanhuyen-service-sidebar .all-toanhuyen-services ul a:hover,
+.toanhuyen-service-sidebar .all-toanhuyen-services ul li.current a {
     color: $theme-primary-color;
 }
 
-.wpo-service-sidebar .all-wpo-services ul>li:last-child a {
+.toanhuyen-service-sidebar .all-toanhuyen-services ul>li:last-child a {
     border: 0;
     padding: 0;
 }
 
-.wpo-service-sidebar>.widget+.widget {
+.toanhuyen-service-sidebar>.widget+.widget {
     margin-top: 55px;
 }
 
-.wpo-service-sidebar .contact-widget {
+.toanhuyen-service-sidebar .contact-widget {
     background: $dark-gray;
     padding: 60px 15px;
     text-align: center;
     position: relative;
 }
 
-.wpo-service-sidebar .contact-widget h5 {
+.toanhuyen-service-sidebar .contact-widget h5 {
     font-size: 20px;
     font-size: 1.25rem;
     font-weight: 500;
@@ -540,62 +540,62 @@
     margin-bottom: 30px;
 }
 
-.wpo-service-sidebar .contact-widget h4 {
+.toanhuyen-service-sidebar .contact-widget h4 {
     font-size: 35px;
     font-size: 2.1875rem;
     margin: 0.5em 0 0;
     color: #fff;
 }
 
-.wpo-p-details-section h4 {
+.toanhuyen-p-details-section h4 {
     font-size: 40px;
     color: #121127;
     margin-bottom: 30px;
 }
 
-.wpo-p-details-section p:last-child {
+.toanhuyen-p-details-section p:last-child {
     margin-bottom: 0;
 }
 
 @media(max-width: 991px) {
-    .wpo-service-sidebar {
+    .toanhuyen-service-sidebar {
         margin-bottom: 40px;
     }
 }
 
 @media(max-width: 530px) {
-    .wpo-service-sidebar .contact-widget h4 {
+    .toanhuyen-service-sidebar .contact-widget h4 {
         font-size: 25px;
     }
 
-    .wpo-service-sidebar .contact-widget h5 {
+    .toanhuyen-service-sidebar .contact-widget h5 {
         font-size: 16px;
     }
 
-    .wpo-p-details-section h4 {
+    .toanhuyen-p-details-section h4 {
         font-size: 35px;
     }
 }
 
-.wpo-minimal-img{
+.toanhuyen-minimal-img{
     img{
         width: 100%;
     }
 }
 
 
-// .wpo-service-section-s3
+// .toanhuyen-service-section-s3
 
-.wpo-service-section-s3{
+.toanhuyen-service-section-s3{
   background: $white;
 
-  .wpo-service-item{
+  .toanhuyen-service-item{
       box-shadow: 0px 2px 8.4px 1.6px rgba(13, 32, 133, 0.05);
   }
 }
 
 
-.wpo-portfolio-section-s3.tb-padding{
+.toanhuyen-portfolio-section-s3.tb-padding{
     padding: 120px 0 110px;
 
     @media(max-width:991px){
@@ -605,7 +605,7 @@
         padding: 70px 0 60px;
     }
 }
-.wpo-portfolio-section.pt-120{
+.toanhuyen-portfolio-section.pt-120{
     padding: 120px 0 110px;
 
     @media(max-width:991px){

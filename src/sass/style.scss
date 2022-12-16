@@ -1,10 +1,3 @@
-/*------------------------------------------------------------------
-[Master Stylesheet]
-Theme Name:     Mylove - Wedding HTML5 Template
-Version:        1.0.0
--------------------------------------------------------------------*/
-
-
 /*--------------------------------------------------------------
 >>> TABLE OF CONTENTS:
 ----------------------------------------------------------------
@@ -18,38 +11,37 @@ Version:        1.0.0
 	2.2 navigation
 
 3. content
-	3.1 wpo-hero-slider
+	3.1 toanhuyen-hero-slider
 	3.2 couple-section
-	3.3 wpo-video-section
-	3.4 wpo-story-section
-	3.5 wpo-cta-section
-	3.6 wpo-portfolio-section
-	3.7 wpo-contact-section
-	3.8 wpo-team-section
-	3.9 wpo-event-section
-	3.10 wpo-partners-section
-	3.11 wpo-blog-section
+	3.3 toanhuyen-video-section
+	3.4 toanhuyen-story-section
+	3.5 toanhuyen-cta-section
+	3.6 toanhuyen-portfolio-section
+	3.7 toanhuyen-contact-section
+	3.8 toanhuyen-team-section
+	3.9 toanhuyen-event-section
+	3.10 toanhuyen-partners-section
+	3.11 toanhuyen-blog-section
 
-4. wpo-footer
+4. toanhuyen-footer
 
 5. Home-style-2
    5.1 couple-section-s2
-   5.2 wpo-wedding-date
-   5.3 wpo-contact-section-s2
-   5.4 wpo-portfolio-section-s2
+   5.2 toanhuyen-wedding-date
+   5.3 toanhuyen-contact-section-s2
+   5.4 toanhuyen-portfolio-section-s2
 	
-7. wpo-wedding-single-area
+7. toanhuyen-wedding-single-area
 
 8. coming-soon-section
 
-9. wpo-blog-pg-section
+9. toanhuyen-blog-pg-section
 
-10. wpo-blog-single-section
+10. toanhuyen-blog-single-section
 
 11. error-404-section
 
 ----------------------------------------------------------------*/
-
 
 /*------------------------------------------------------------------
 1. General
@@ -62,7 +54,6 @@ Version:        1.0.0
 
 // base
 @import "base/base";
-
 
 // components
 @import "components/section-title";
@@ -82,7 +73,6 @@ Version:        1.0.0
 // components
 @import "components/sticky-header";
 
-
 // page
 @import "page/home-default";
 
@@ -99,8 +89,3 @@ Version:        1.0.0
 @import "page/_blog-single";
 
 @import "page/_error-404";
-
-
-
-
-

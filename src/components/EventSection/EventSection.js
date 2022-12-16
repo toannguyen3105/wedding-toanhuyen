@@ -27,15 +27,15 @@ const Events = [
 
 const EventSection = (props) => {
     return (
-        <section className={`wpo-event-section section-padding ${props.eClass}`} id="event">
+        <section className={`toanhuyen-event-section section-padding ${props.eClass}`} id="event">
             <div className="container">
                 <SectionTitleS2 MainTitle={'When & Where'} />
-                <div className="wpo-event-wrap">
+                <div className="toanhuyen-event-wrap">
                     <div className="row">
                         {Events.map((event, eitem) => (
                             <div className="col col-lg-4 col-md-6 col-12" key={eitem}>
-                                <div className="wpo-event-item">
-                                    <div className="wpo-event-text">
+                                <div className="toanhuyen-event-item">
+                                    <div className="toanhuyen-event-text">
                                         <h2>{event.title}</h2>
                                         <ul>
                                             <li>{event.li1}</li>

@@ -12,8 +12,8 @@ const Hero4 = (props) => {
                     <div className="container">
                         <div className="row justify-content-center">
                             <div className="col-lg-6">
-                                <div className="wpo-event-item">
-                                    <div className="wpo-event-text">
+                                <div className="toanhuyen-event-item">
+                                    <div className="toanhuyen-event-text">
                                         <h2>Alexander & Jenny</h2>
                                         <p>We Are Getting Married Nov 22,2022</p>
                                         <ul>

@@ -1,12 +1,12 @@
 import React from 'react'
 import TimeCountDown from '../countdown'
-import hImg1 from '../../images/slider/s1.png'
+import hImg1 from '../../images/slider/s1.jpg'
 import shape1 from '../../images/slider/shape.svg'
 import shape2 from '../../images/slider/flower1.png'
 import shape3 from '../../images/slider/flower2.png'
 
 
-const Hero = (props) => {
+const Hero = () => {
     return (
         <section className="static-hero" id='home'>
             <div className="hero-container">
@@ -22,7 +22,7 @@ const Hero = (props) => {
                                     <div data-swiper-parallax="400" className="slide-text">
                                         <p>CHÚNG TÔI SẼ KẾT HÔN Ngày 2 tháng 1 năm 2023</p>
                                     </div>
-                                    <div className="wpo-wedding-date">
+                                    <div className="toanhuyen-wedding-date">
                                         <div className="clock-grids">
                                             <TimeCountDown/>
                                         </div>

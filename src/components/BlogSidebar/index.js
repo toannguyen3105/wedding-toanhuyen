@@ -96,7 +96,7 @@ const BlogSidebar = (props) => {
                         ))}
                     </div>
                 </div>
-                <div className="widget wpo-instagram-widget">
+                <div className="widget toanhuyen-instagram-widget">
                     <div className="widget-title">
                         <h3>Instagram</h3>
                     </div>

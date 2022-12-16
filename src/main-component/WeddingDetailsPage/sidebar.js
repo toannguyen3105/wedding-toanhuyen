@@ -63,7 +63,7 @@ const Sidebar = (props) => {
                         <li><Link onClick={ClickHandler} to="/wedding-details">Fish BBQ <span>8</span></Link></li>
                     </ul>
                 </div>
-                <div className="wpo-newsletter-widget widget">
+                <div className="toanhuyen-newsletter-widget widget">
                     <h3>Newsletter</h3>
                     <p>Join 20,000 Sabscribers!</p>
                     <form className="form" onSubmit={SubmitHandler}>
@@ -72,7 +72,7 @@ const Sidebar = (props) => {
                     </form>
                     <span>By signing up you agree to our <Link to="/wedding-details">Privecy Policy</Link></span>
                 </div>
-                <div className="widget wpo-instagram-widget">
+                <div className="widget toanhuyen-instagram-widget">
                     <div className="widget-title">
                         <h3>Instagram</h3>
                     </div>

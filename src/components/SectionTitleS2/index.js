@@ -3,7 +3,7 @@ import React from 'react'
 
 const SectionTitleS2 = (props) => {
     return(
-        <div className="wpo-section-title-s2">
+        <div className="toanhuyen-section-title-s2">
             <div className="section-title-icon">
                 <i className="fi flaticon-dove"></i>
             </div>

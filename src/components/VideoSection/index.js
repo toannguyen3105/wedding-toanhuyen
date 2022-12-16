@@ -4,7 +4,7 @@ import VideoModal from '../ModalVideo'
 
 const VideoSection = (props) => {
     return(
-        <section className="wpo-video-section">
+        <section className="toanhuyen-video-section">
             <h2 className="hidden">some</h2>
             <VideoModal/>
         </section>

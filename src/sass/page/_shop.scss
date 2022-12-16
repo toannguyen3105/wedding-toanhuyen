@@ -1,22 +1,22 @@
 
 /*--------------------------------------------------------------
-12. wpo-shop-page
+12. toanhuyen-shop-page
 --------------------------------------------------------------*/
-.wpo-shop-page {
+.toanhuyen-shop-page {
 	padding-bottom: 90px;
 
 	@media(max-width:991px){
 		padding-bottom: 70px;
 	  }
 
-	.wpo-product-section{
+	.toanhuyen-product-section{
 		padding: 0;
 		padding-left: 30px;
 
 		@media(max-width:991px){
           padding-left: 0;
 		}
-		.wpo-product-img{
+		.toanhuyen-product-img{
 			img{
 				width: 100%;
 			}
@@ -51,14 +51,14 @@
 product-design
 --------------------------------------------------------------*/
 
-.wpo-product-section{
+.toanhuyen-product-section{
 	padding-bottom: 90px;
-	.wpo-product-wrap{
-		.wpo-product-item{
+	.toanhuyen-product-wrap{
+		.toanhuyen-product-item{
 			margin-bottom: 30px;
 			padding: 20px;
 	   		box-shadow: 0px 0px 6.1px 3.9px rgba(28, 31, 86, 0.04);
-			.wpo-product-img{
+			.toanhuyen-product-img{
 				position: relative;
 				overflow: hidden;
 
@@ -98,7 +98,7 @@ product-design
 			}
 
 			&:hover{
-				.wpo-product-img{
+				.toanhuyen-product-img{
 					button{
 						opacity: 1; 
 						visibility: visible;
@@ -110,7 +110,7 @@ product-design
 				}
 			}
 
-			.wpo-product-text{
+			.toanhuyen-product-text{
 				padding: 20px;
 				text-align: center;
 				padding-bottom: 0;

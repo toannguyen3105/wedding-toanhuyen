@@ -21,11 +21,11 @@ const BlogSingle = (props) => {
     }
 
     return (
-        <section className="wpo-blog-single-section section-padding">
+        <section className="toanhuyen-blog-single-section section-padding">
             <div className="container">
                 <div className="row">
                     <div className={`col col-lg-8 col-12 ${props.blRight}`}>
-                        <div className="wpo-blog-content">
+                        <div className="toanhuyen-blog-content">
                             <div className="post format-standard-image">
                                 <div className="entry-media">
                                     <img src={BlogDetails.blogSingleImg} alt="" />

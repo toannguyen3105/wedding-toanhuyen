@@ -29,7 +29,7 @@ const Portfolios = [
 
 const PortfolioSection2 = (props) => {
     return(
-        <section className={`wpo-portfolio-section section-padding ${props.gClass}`} id="gallery">
+        <section className={`toanhuyen-portfolio-section section-padding ${props.gClass}`} id="gallery">
             <div className="container">
                 <SectionTitle MainTitle={'Sweet Captured Moments'}/>
                 <div className="sortable-gallery">

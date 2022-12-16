@@ -54,7 +54,7 @@ const PortfolioSection3 = (props) => {
     };
 
     return (
-        <section className="wpo-portfolio-section-s2 section-padding" id="gallery">
+        <section className="toanhuyen-portfolio-section-s2 section-padding" id="gallery">
             <div className="container-fluid">
                 <SectionTitle MainTitle={'Sweet Captured Moments'}/>
                 <div className="sortable-gallery">

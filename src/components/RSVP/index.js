@@ -48,10 +48,10 @@ const RSVP = (props) => {
     };
 
     return (
-        <section className={`wpo-contact-section ${props.pt}`} id="RSVP">
+        <section className={`toanhuyen-contact-section ${props.pt}`} id="RSVP">
             <div className="container">
-                <div className="wpo-contact-section-wrapper">
-                    <div className="wpo-contact-form-area">
+                <div className="toanhuyen-contact-section-wrapper">
+                    <div className="toanhuyen-contact-form-area">
                         <SectionTitle MainTitle={'Are you attending?'} />
 
                         <form onSubmit={(e) => submitHandler(e)} className="contact-validation-active" >

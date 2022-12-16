@@ -10,18 +10,18 @@ const BlogSection2 = (props) => {
      }
 
     return(
-        <section className={`wpo-blog-section section-padding ${props.blogClass}`}>
+        <section className={`toanhuyen-blog-section section-padding ${props.blogClass}`}>
             <div className="container">
                 <ServiceSection2 MainTitle={'From Our Blog'}/>
-                <div className="wpo-blog-items">
+                <div className="toanhuyen-blog-items">
                     <div className="row">
                         {blogs.map((blog, Bitem) => (
                             <div className="col col-lg-4 col-md-6 col-12" key={Bitem}>
-                                <div className="wpo-blog-item">
-                                    <div className="wpo-blog-img">
+                                <div className="toanhuyen-blog-item">
+                                    <div className="toanhuyen-blog-img">
                                         <img src={blog.screens} alt=""/>
                                     </div>
-                                    <div className="wpo-blog-content">
+                                    <div className="toanhuyen-blog-content">
                                         <ul>
                                             <li>By <Link onClick={ClickHandler} to={`/blog-single/${blog.id}`}>{blog.author}</Link></li>
                                             <li>{blog.create_at}</li>

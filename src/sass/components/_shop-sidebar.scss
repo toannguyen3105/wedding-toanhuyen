@@ -1,7 +1,7 @@
 /*------------------------------------
 	shop sidebar
 ------------------------------------*/
-.wpo-shop-sidebar{
+.toanhuyen-shop-sidebar{
 
 	@media(max-width:991px){
         margin-top: 50px;
@@ -204,7 +204,7 @@
 /*** widget_best-seller ***/
 
 .widget_best-seller{
-	.wpo-best-seller-item{
+	.toanhuyen-best-seller-item{
       display: flex;
 	  align-items: center;
 	  margin-bottom: 20px;
@@ -212,13 +212,13 @@
 		  margin-bottom: 0;
 	  }
 
-	  .wpo-best-seller-img{
+	  .toanhuyen-best-seller-img{
 		  img{
 			  max-width: 90px;
 		  }
 	  }
 
-	  .wpo-best-seller-text{
+	  .toanhuyen-best-seller-text{
 		  margin-left: 20px;
 
 		  h4{
@@ -246,7 +246,7 @@
 
 /*** instagram-widget ***/
 
-.wpo-instagram-widget{
+.toanhuyen-instagram-widget{
         
 	ul{
 		display: flex;

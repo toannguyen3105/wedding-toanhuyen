@@ -11,7 +11,7 @@ const EventPage =() => {
         <Fragment>
             <Navbar2/>
             <PageTitle pageTitle={'When & Where'} pagesub={'Events'}/> 
-            <EventSection eClass={'wpo-event-section-s2'}/>
+            <EventSection eClass={'toanhuyen-event-section-s2'}/>
             <PartnerSection pClass={'section-padding pt-0'}/>
             <Footer/>
             <Scrollbar/>

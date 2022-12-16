@@ -11,8 +11,8 @@ const Footer = (props) => {
   };
 
   return (
-    <footer className="wpo-site-footer">
-      <div className="wpo-upper-footer">
+    <footer className="toanhuyen-site-footer">
+      <div className="toanhuyen-upper-footer">
         <div className="container">
           <div className="row">
             <div className="col col-xl-3 col-lg-4 col-md-6 col-sm-12 col-12">
@@ -83,7 +83,7 @@ const Footer = (props) => {
               </div>
             </div>
             <div className="col col-xl-3  col-lg-4 col-md-6 col-sm-12 col-12">
-              <div className="widget wpo-service-link-widget">
+              <div className="widget toanhuyen-service-link-widget">
                 <div className="widget-title">
                   <h3>Contact Us</h3>
                 </div>
@@ -119,7 +119,7 @@ const Footer = (props) => {
           </div>
         </div>
       </div>
-      <div className="wpo-lower-footer">
+      <div className="toanhuyen-lower-footer">
         <div className="container">
           <div className="row">
             <div className="col col-xs-12">

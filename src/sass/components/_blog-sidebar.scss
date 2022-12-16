@@ -303,8 +303,8 @@
 		}
 	}
 
-	/*** wpo-newsletter-widget ***/
-	.wpo-newsletter-widget{
+	/*** toanhuyen-newsletter-widget ***/
+	.toanhuyen-newsletter-widget{
         p{
             font-size: 18px;
             color: $dark-gray;
@@ -355,7 +355,7 @@
 
 	/*** instagram-widget ***/
 
-	.wpo-instagram-widget{
+	.toanhuyen-instagram-widget{
         
 		ul{
 			display: flex;
@@ -409,9 +409,9 @@
 		}
 	}
 
-	/*** wpo-contact-widget ***/
+	/*** toanhuyen-contact-widget ***/
 
-	.wpo-contact-widget{
+	.toanhuyen-contact-widget{
 		border: 0;
         position: relative;
         background-size: cover;
@@ -476,7 +476,7 @@
 }
 
 
-.wpo-blog-pg-section.blog-pg-left-sidebar{
+.toanhuyen-blog-pg-section.blog-pg-left-sidebar{
 	.blog-sidebar{
 		@include widther(992px) {
 			padding-left: 0px;
@@ -486,7 +486,7 @@
 }
 
 
-.wpo-blog-single-section.wpo-blog-single-left-sidebar-section{
+.toanhuyen-blog-single-section.toanhuyen-blog-single-left-sidebar-section{
 	.blog-sidebar{
 		@include widther(992px) {
 			padding-left: 0px;

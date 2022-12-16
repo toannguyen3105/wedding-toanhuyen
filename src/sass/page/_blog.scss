@@ -1,15 +1,15 @@
 
 /*--------------------------------------------------------------
-9. wpo-blog-pg-section
+9. toanhuyen-blog-pg-section
 --------------------------------------------------------------*/
-.wpo-blog-pg-section {
+.toanhuyen-blog-pg-section {
 
 	.container{
 		@media(min-width:1440px){
           max-width: 1320px;
 		}
 	}
-	.wpo-blog-content {
+	.toanhuyen-blog-content {
 
 		.post {
 			margin-bottom: 70px;
@@ -339,7 +339,7 @@
 }
 
 .blog-pg-fullwidth {
-	.wpo-blog-content {
+	.toanhuyen-blog-content {
 		@include widther(1200px) {
 			padding: 0;
 		}

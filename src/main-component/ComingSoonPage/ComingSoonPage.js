@@ -27,7 +27,7 @@ const ComingSoonPage = () => {
                                         </div>
                                     </div>
                                     <div className="coming-soon-item">
-                                        <div className="wpo-wedding-date">
+                                        <div className="toanhuyen-wedding-date">
                                             <h2 className="hidden">some</h2>
                                             <div className="clock-grids">
                                                 <TimeCountDown />
@@ -35,7 +35,7 @@ const ComingSoonPage = () => {
                                         </div>
                                     </div>
                                     <div className="coming-soon-item">
-                                        <div className="wpo-coming-contact">
+                                        <div className="toanhuyen-coming-contact">
                                             <form onSubmit={SubmitHandler} className="contact-validation-active">
                                                 <div className="row justify-content-center">
                                                     <div className="col-lg-6 col-sm-6 col-12">

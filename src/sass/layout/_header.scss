@@ -212,7 +212,7 @@
 			span {
 				transform: scaleX(-1);
 				display: inline-block;
-				margin-left: -19px;
+				margin-left: 0;
 
 				.fi {
 					&:before {
@@ -1507,9 +1507,9 @@
 
 }
 
-// wpo-header-style-3
+// toanhuyen-header-style-3
 
-.wpo-header-style-2 {
+.toanhuyen-header-style-2 {
 	position: absolute;
 	left: 0;
 	width: 100%;
@@ -1573,7 +1573,7 @@
 @media(max-width:991px) {
 
 	.toanhuyen-site-header,
-	.wpo-header-style-2 {
+	.toanhuyen-header-style-2 {
 		z-index: 99999;
 	}
 }
@@ -1680,8 +1680,8 @@
       -webkit-box-shadow: 0px 1px 5px rgba(0, 0, 0, .1);
   }
 
-  .fixed-navbar.active .wpo-header-style-1,
-  .fixed-navbar.active .wpo-header-style-5 .toanhuyen-site-header{
+  .fixed-navbar.active .toanhuyen-header-style-1,
+  .fixed-navbar.active .toanhuyen-header-style-5 .toanhuyen-site-header{
     background: #1a384c;
 	max-width: 100%;
   }
@@ -1691,7 +1691,7 @@
 	  z-index: 99999;
   }
 
-  .wpo-header-style-1{
+  .toanhuyen-header-style-1{
 	  .shop-header{
 		  background: rgba(20, 33, 43, 0.6);
 
@@ -1702,6 +1702,6 @@
 	  }
   }
 
-  .fixed-navbar.active .wpo-header-style-1 .shop-header{
+  .fixed-navbar.active .toanhuyen-header-style-1 .shop-header{
 	background: #1a384c;
   }

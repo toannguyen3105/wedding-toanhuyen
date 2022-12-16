@@ -62,22 +62,22 @@ const BrideGrooms2 = (props) => {
 
   return (
     <section className="bride-groom-section">
-      <div className="wpo-team-section section-padding pt-120">
+      <div className="toanhuyen-team-section section-padding pt-120">
         <div className="container">
           <SectionTitle MainTitle={'Bridesmaids'} />
-          <div className="wpo-team-wrap">
+          <div className="toanhuyen-team-wrap">
             <div className="row">
               {Brides.slice(0, 3).map((Bride, tm) => (
                 <div className="col col-lg-4 col-md-6 col-sm-12 col-12" key={tm}>
-                    <div className="wpo-team-item">
-                        <div className="wpo-team-img">
-                            <div className="wpo-team-img-inner">
+                    <div className="toanhuyen-team-item">
+                        <div className="toanhuyen-team-img">
+                            <div className="toanhuyen-team-img-inner">
                                 <img src={Bride.tImg} alt="" />
                             </div>
                             <div className="shape-1"><img src={shape1} alt=""/></div>
                             <div className="shape-2"><img src={shape2} alt=""/></div>
                         </div>
-                        <div className="wpo-team-text">
+                        <div className="toanhuyen-team-text">
                             <h3>{Bride.name}</h3>
                             <span>{Bride.title}</span>
                         </div>
@@ -89,22 +89,22 @@ const BrideGrooms2 = (props) => {
         </div>
       </div>
       <VideoSection/>
-      <div className="wpo-team-section pt-120 section-padding">
+      <div className="toanhuyen-team-section pt-120 section-padding">
         <div className="container">
           <SectionTitle MainTitle={'Groomsmen'} />
-          <div className="wpo-team-wrap">
+          <div className="toanhuyen-team-wrap">
             <div className="row">
               {Grooms.slice(0, 6).map((Groom, gm) => (
                 <div className="col col-lg-4 col-md-6 col-sm-12 col-12" key={gm}>
-                    <div className="wpo-team-item">
-                        <div className="wpo-team-img">
-                            <div className="wpo-team-img-inner">
+                    <div className="toanhuyen-team-item">
+                        <div className="toanhuyen-team-img">
+                            <div className="toanhuyen-team-img-inner">
                                 <img src={Groom.tImg} alt="" />
                             </div>
                             <div className="shape-1"><img src={shape1} alt=""/></div>
                             <div className="shape-2"><img src={shape2} alt=""/></div>
                         </div>
-                        <div className="wpo-team-text">
+                        <div className="toanhuyen-team-text">
                             <h3>{Groom.name}</h3>
                             <span>{Groom.title}</span>
                         </div>

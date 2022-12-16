@@ -54,22 +54,22 @@ const brideGrooms = [
 const BrideGrooms = (props) => {
 
   return (
-      <section className={`wpo-team-section ${props.tClass}`}>
+      <section className={`toanhuyen-team-section ${props.tClass}`}>
         <div className="container">
           <SectionTitle MainTitle={'Bridesmaids & Groomsmen'} />
-          <div className="wpo-team-wrap">
+          <div className="toanhuyen-team-wrap">
             <div className="row">
               {brideGrooms.map((brideGroom, tm) => (
                 <div className="col col-lg-4 col-md-6 col-sm-12 col-12" key={tm}>
-                    <div className="wpo-team-item">
-                        <div className="wpo-team-img">
-                            <div className="wpo-team-img-inner">
+                    <div className="toanhuyen-team-item">
+                        <div className="toanhuyen-team-img">
+                            <div className="toanhuyen-team-img-inner">
                                 <img src={brideGroom.tImg} alt="" />
                             </div>
                             <div className="shape-1"><img src={shape1} alt=""/></div>
                             <div className="shape-2"><img src={shape2} alt=""/></div>
                         </div>
-                        <div className="wpo-team-text">
+                        <div className="toanhuyen-team-text">
                             <h3>{brideGroom.name}</h3>
                             <span>{brideGroom.title}</span>
                         </div>

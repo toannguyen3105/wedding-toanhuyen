@@ -80,7 +80,7 @@ const PartnerSection = (props) => {
 
     return (
 
-        <section className={`wpo-partners-section ${props.pClass}`}>
+        <section className={`toanhuyen-partners-section ${props.pClass}`}>
             <div className="container">
                 <div className="row">
                     <div className="col col-xs-12">

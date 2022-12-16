@@ -8,7 +8,7 @@ import fr4 from '../../images/countdown/frame4.png'
 const WeddingTime = (props) => {
 
     return (
-        <section className={`wpo-wedding-times ${props.wdClass}`}>
+        <section className={`toanhuyen-wedding-times ${props.wdClass}`}>
             <div className="container">
                 <div className="row">
                     <div className="col col-xs-12">
