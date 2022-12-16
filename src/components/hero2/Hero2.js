@@ -12,7 +12,7 @@ const Hero2 = (props) => {
                     <div className="container-fluid">
                         <div className="row align-items-center">
                             <div className="col-xl-6 col-lg-6 col-12">
-                                <div className="wpo-static-hero-inner">
+                                <div className="toanhuyen-static-hero-inner">
                                     <div className="shape-1"><img src={shape1} alt="" /></div>
                                     <div data-swiper-parallax="300" className="slide-title">
                                         <h2>Margrate <span>&</span> Daniel</h2>

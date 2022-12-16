@@ -14,13 +14,13 @@ const Hero = (props) => {
                     <div className="container-fluid">
                         <div className="row align-items-center">
                             <div className="col-xl-8 col-lg-6 col-12">
-                                <div className="wpo-static-hero-inner">
+                                <div className="toanhuyen-static-hero-inner">
                                     <div className="shape-1"><img src={shape1} alt=""/></div>
                                     <div data-swiper-parallax="300" className="slide-title">
-                                        <h2>Alexander <span>&</span> Jenny</h2>
+                                        <h2>Toan <span>&</span> Huyen</h2>
                                     </div>
                                     <div data-swiper-parallax="400" className="slide-text">
-                                        <p>We Are Getting Married Dec 8, 2022</p>
+                                        <p>CHÚNG TÔI SẼ KẾT HÔN Ngày 2 tháng 1 năm 2023</p>
                                     </div>
                                     <div className="wpo-wedding-date">
                                         <div className="clock-grids">

@@ -125,7 +125,7 @@ const Hero6 = (props) => {
                             ]
                         },
                         color: {
-                            value: "#D66371"
+                            value: "#59C1BD"
                         },
                         size: {
                             value: 20,
