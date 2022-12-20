@@ -32,7 +32,7 @@ const CoupleSection = (props) => {
                       <h3>Thanh Huyền</h3>
                       <p>
                         Cô dâu Thanh Huyền là người{" "}
-                        <i>xinh gái, hoạt bát, lễ phép</i>. Cũng chính những
+                        <i>xinh xắn, hoạt bát, lễ phép</i>. Cũng chính những
                         tính cách ấy, khiến chú rể lần đầu gặp mặt không khỏi ấn
                         tượng. Tuy có nhiều lúc còn trẻ con, hơi bướng bỉnh,
                         nhưng cô dâu Thanh Huyền thực sự là con người ấm áp và
