@@ -51,8 +51,8 @@ const StorySection = () => {
                         </div>
                       </div>
                       <p>
-                        Đó là một buổi tối sau khi bạn ý đi tập về và tôi có cơ
-                        hội gặp bạn lần đầu.
+                        Lần đầu gặp gỡ là cô dâu là một buổi đi tập yoga về của
+                        bạn.
                       </p>
                     </div>
                   </div>
@@ -114,18 +114,16 @@ const StorySection = () => {
                       className="story-text left-align-text fadeInRightSlow"
                       data-wow-duration="2000ms"
                     >
-                      <h3>She Said Yes!</h3>
-                      <span className="date">15 June 2022</span>
+                      <h3>Cô ấy nói đồng ý</h3>
+                      <span className="date">23 tháng 11 2022</span>
                       <div className="line-shape">
                         <div className="outer-ball">
                           <div className="inner-ball"></div>
                         </div>
                       </div>
                       <p>
-                        Lorem ipsum dolor sit amet, constetur adicng elit.
-                        Ultricies nulla mi tempus mcorper for praesent.
-                        Ultricies interdum volutpat morbi nam ornare neque elit
-                        leo, diam. Malesuada enim ac amurna tempor vel duis.
+                        Đó là cả một câu chuyện dài và vất vả để đưa được cô ấy
+                        nói đồng ý không thể dùng một vài lời mà nói nên được
                       </p>
                     </div>
                   </div>
