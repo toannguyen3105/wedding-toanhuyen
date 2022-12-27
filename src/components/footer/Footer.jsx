@@ -5,7 +5,7 @@ const Footer = () => {
     <footer className="toanhuyen-site-footer">
       <div className="toanhuyen-lower-footer">
         <div className="container">
-          <div className="row">
+          <div className="row justify-content-around">
             <div className="col col-xl-6  col-lg-6 col-md-6 col-sm-12 col-12">
               <div className="widget wpo-service-link-widget">
                 <div className="widget-title">

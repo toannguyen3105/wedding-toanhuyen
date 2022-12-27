@@ -83,7 +83,7 @@ const CoupleSection = (props) => {
                           src="https://media.baamboozle.com/uploads/images/88978/1628215210_66687.gif"
                           alt=""
                         />{" "}
-                        Trong thời gian tới, chủ rể khong chỉ là điểm tựa mà còn
+                        Trong thời gian tới, chủ rể không chỉ là điểm tựa mà còn
                         được là người chia sẻ niềm vui, nỗi buồn cuộc sống với
                         cô dâu.
                       </p>

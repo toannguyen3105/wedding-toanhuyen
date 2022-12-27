@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import SimpleReactValidator from "simple-react-validator";
-import SectionTitle from "../../components/SectionTitle";
+import SectionTitle from "../SectionTitle";
 
 import vec1 from "../../images/rsvp/flower1.png";
 import vec2 from "../../images/rsvp/flower2.png";
@@ -49,7 +49,7 @@ const RSVP = (props) => {
       <div className="container">
         <div className="toanhuyen-contact-section-wrapper">
           <div className="toanhuyen-contact-form-area">
-            <SectionTitle MainTitle={"Are you attending?"} />
+            <SectionTitle MainTitle={"Will you join with us?"} />
 
             <form
               onSubmit={(e) => submitHandler(e)}
@@ -103,7 +103,7 @@ const RSVP = (props) => {
                   className="form-control"
                   name="guest"
                 >
-                  <option>File đính kèm</option>
+                  <option>Số lượng phong bì</option>
                   <option>01</option>
                   <option>02</option>
                   <option>03</option>

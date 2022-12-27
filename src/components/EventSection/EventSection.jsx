@@ -20,7 +20,7 @@ const EventSection = (props) => {
       <div className="container">
         <SectionTitleS2 MainTitle={"When & Where"} />
         <div className="toanhuyen-event-wrap">
-          <div className="row">
+          <div className="row justify-content-around">
             {Events.map((event, eitem) => (
               <div className="col col-lg-4 col-md-6 col-12" key={eitem}>
                 <div className="toanhuyen-event-item">

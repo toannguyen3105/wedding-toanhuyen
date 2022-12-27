@@ -51,8 +51,9 @@ const StorySection = () => {
                         </div>
                       </div>
                       <p>
-                        Lần đầu gặp gỡ là cô dâu là một buổi đi tập yoga về của
-                        bạn.
+                        Đầu tiên, chú rể chỉ thả tim và haha vào story của cô
+                        dâu. Lần đầu tiên nhắn tin, là một lần hỏi mua test
+                        covid trong mùa nCovid.
                       </p>
                     </div>
                   </div>
@@ -75,7 +76,7 @@ const StorySection = () => {
                       <p>
                         Đó là ngày lễ độc lập của dân tộc, lần đầu chúng tôi hẹn
                         nhau ở một nơi xa xôi giữa lòng thủ đô Hà Nội. Với món
-                        Nhật là Ramen
+                        Nhật là tại quán Tiệm Mì Tươi Ramen2go.
                       </p>
                     </div>
                   </div>
@@ -122,8 +123,9 @@ const StorySection = () => {
                         </div>
                       </div>
                       <p>
-                        Đó là cả một câu chuyện dài và vất vả để đưa được cô ấy
-                        nói đồng ý không thể dùng một vài lời mà nói nên được
+                        Đó là cả một câu chuyện dài và vất vả để được cô ấy nói
+                        đồng ý. Do đó, mà không thể dùng một vài lời để nói hết
+                        câu chuyện được.
                       </p>
                     </div>
                   </div>
